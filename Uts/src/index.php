@@ -37,6 +37,9 @@
                         <option value="5">Croissant</option>
                     </select>
                     <input id="input" type="date" name="birthdate" required />
+                    <p style="color: var(--4) ">Bukti Pembayaran</p>
+                    <input id="input" type="file" name="fileToUpload" id="fileToUpload" placeholder="Bukti Pembayaran"
+                        required />
                     <button type="submit" class="btn btn-primary">create</button>
                     <p class="message">Already registered? <a href="#">Sign In</a></p>
                 </div>

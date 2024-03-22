@@ -180,37 +180,44 @@
             </div>
             <div class="row">
                 <div class="col-12 col-md-12 col-lg-4">
-                    <div class="card text-center pb-2" style="background-color: var(--2); color:var(--4);">
+                    <div class="card text-center pb-2"
+                        style="background-color: var(--2); color:var(--4); height: 400px;">
                         <div class="card-body">
                             <i class="bi bi-wallet2"></i>
                             <h3 class="card-title">Wajib</h3>
-
-                            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci eligendi
-                                modi temporibus alias iste. Accusantium?</p>
+                            <hr>
+                            <p class="lead">
+                                ceritanya disini ada simpanan wajib
+                            </p>
                         </div>
                     </div>
                 </div>
                 <div class="col-12 col-md-12 col-lg-4">
-                    <div class="card text-center pb-2" style="background-color: var(--2); color:var(--4);">
+                    <div class="card text-center pb-2"
+                        style="background-color: var(--2); color:var(--4); height: 400px;">
                         <div class="card-body">
                             <i class="bi bi-cash-coin"></i>
                             <h3 class="card-title">Pokok</h3>
-                            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci eligendi
-                                modi temporibus alias iste. Accusantium?</p>
+                            <hr>
+                            <p class="lead">
+                                disini nanti ada simpanan pokok
+                            </p>
                         </div>
                     </div>
                 </div>
                 <div class="col-12 col-md-12 col-lg-4">
-                    <div class="card text-center pb-2" style="background-color: var(--2); color:var(--4);">
+                    <div class="card text-center pb-2"
+                        style="background-color: var(--2); color:var(--4); height: 400px;">
                         <div class="card-body">
                             <i class="bi bi-wallet"></i>
                             <h3 class="card-title">Sukarela</h3>
-                            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci eligendi
-                                modi temporibus alias iste. Accusantium?</p>
+                            <hr>
+                            <p class="lead">disini simpanan sukarela</p>
                         </div>
                     </div>
                 </div>
             </div>
+
 
         </div>
     </section>
