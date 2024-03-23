@@ -28,6 +28,12 @@
             color: var(--4);
         }
 
+        .table {
+
+            background-color: var(--2);
+            color: var(--4);
+        }
+
         .card {
             background-color: var(--2);
             color: var(--4);
@@ -88,36 +94,29 @@
     </nav>
 
     <!-- Content -->
-    <div class="container card " style="margin: 80px; background-color: ;">
+    <div class="container  " style="margin-top: 80px; background-color: ;">
         <h2>History</h2>
-        <table id="historyTable" class="table table-striped" style="background-color: red; margin: 10px; ">
+        <table class="table table-success  " style="color: lightblue;">
+
             <thead>
                 <tr>
-                    <th>No</th>
-                    <th>Date</th>
-                    <th>Action</th>
-                    <th>Result</th>
+                    <th scope="col">tanggal</th>
+                    <th scope="col">Keterangan</th>
+                    <th scope="col">Jumlah</th>
+                    <th scope="col">Katergori</th>
+                    <th scope="col">Status </th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
-                    <td>1</td>
-                    <td>2022-01-01</td>
-                    <td>Login</td>
-                    <td>Success</td>
+                    <th scope="row">1</th>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                    <td>@mdo</td>
+                    <td>meninggal</td>
                 </tr>
-                <tr>
-                    <td>2</td>
-                    <td>2022-01-02</td>
-                    <td>Update Profile</td>
-                    <td>Success</td>
-                </tr>
-                <tr>
-                    <td>3</td>
-                    <td>2022-01-03</td>
-                    <td>View History</td>
-                    <td>Success</td>
-                </tr>
+
+
             </tbody>
         </table>
     </div>
